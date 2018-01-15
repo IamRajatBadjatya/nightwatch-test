@@ -1,17 +1,17 @@
 module.exports = {
-  beforeEach: function(browser) {
+  before: function(browser) {
     browser.init();
     browser.waitForElementVisible("body", 1000);
   },
 
-  afterEach: function(browser, done) {
+  after: function(browser, done) {
     browser.end(function() {
       done();
     });
   },
 
   'Verify title': function(browser) {
-    browser.assert.title("The Internet", "Asserting title of internet heroku");
+    browser.assert.title("The Internets", "Asserting title of internet heroku");
   },
 
   'Verify heading': function(browser) {

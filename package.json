@@ -6,6 +6,11 @@
   "author": "VimalRaj Selvam <email2vimalraj@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "nightwatch": "^0.9.19"
+    "nightwatch": "^0.9.19",
+    "nightwatch-html-reporter": "^2.0.4"
+  },
+  "scripts": {
+    "test": "nightwatch",
+    "test:chrome": "nightwatch -e chrome"
   }
 }

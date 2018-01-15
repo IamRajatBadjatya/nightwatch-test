@@ -3,6 +3,7 @@
   "output_folder": "reports",
   "page_objects_path": "pages",
   "custom_assertions_path": "assertions",
+  "globals_path": "./globalHook.js",
 
   "selenium": {
     "start_process": true,
@@ -41,7 +42,7 @@
   },
 
   "test_workers": {
-    "enabled": false,
+    "enabled": true,
     "workers": "auto"
   }
 }
