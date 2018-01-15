@@ -1,3 +1,9 @@
+const homePageCommands = {
+  navigateToCheckboxes: function() {
+    return this.click('@checkboxesLink');
+  },
+};
+
 module.exports = {
 
   sections: {
@@ -7,9 +13,11 @@ module.exports = {
 
     container: {
       selector: '#content',
+      commands: [homePageCommands],
       elements: {
         heading: 'h2',
         linkList: 'li',
+        checkboxesLink: 'a[href="/checkboxes"]',
       }
     },
 
