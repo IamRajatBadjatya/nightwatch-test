@@ -11,7 +11,7 @@ module.exports = {
   },
 
   'Verify title': function(browser) {
-    browser.assert.title("The Internets", "Asserting title of internet heroku");
+    browser.assert.title("The Internet", "Asserting title of internet heroku");
   },
 
   'Verify heading': function(browser) {
