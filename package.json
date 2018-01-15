@@ -1,0 +1,11 @@
+{
+  "name": "nightwatch-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/email2vimalraj/nightwatch-test.git",
+  "author": "VimalRaj Selvam <email2vimalraj@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nightwatch": "^0.9.19"
+  }
+}
